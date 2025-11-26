@@ -57,7 +57,7 @@ Ensure you have Python 3.x installed. The following scientific computing librari
 pip install numpy scikit-learn matplotlib
 ```
 ---
-# How to Run
+## How to Run
 
 Clone the repository:
 
@@ -69,7 +69,8 @@ Execute the script
 python mds-implementation-script
 ```
 ---
-# Expected Output
+
+## Expected Output
 
 The execution will generate a figure that directly compares the three spatial representations. Observe the accuracy of 
 each method in attempting to maintain the geometric structure of the original points, especially under the influence
@@ -80,8 +81,10 @@ of the introduced noise.
 The chart compares the Ground Truth (true position) with the two MDS reconstructions. The connecting lines represent 
 the strength of the dissimilarity (noisy input distance), allowing a visual assessment of how each method preserves 
 the structure.
+
 ---
-# Contributions
+
+## Contributions
 
 Feel free to open issues or submit pull requests to improve the code, add stress metrics, or expand the analysis to 
 other embedding techniques.
